@@ -1,3 +1,54 @@
-.vscode/
-.DS_Store
+# Dossiers et fichiers à ignorer
+
+# Environnements virtuels
 .venv/
+venv/
+ENV/
+env/
+*.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers d'IDE/éditeur
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de logs
+*.log
+
+# Dossiers de tests ou de cache
+.cache/
+.ipynb_checkpoints/
+
+# Fichiers de configuration secrets
+*.env.*
+secrets.*
+config.yaml
+
+# Dossiers de build
+build/
+dist/
+*.egg-info/
+
+# Fichiers de notebook checkpoints
+checkpoint/
+
+# Fichiers de données temporaires
+*.bak
+*.tmp
+
+# Fichiers générés par Power BI
+*.pbix
+
+# Fichiers de sortie Jupyter
+*.nbconvert.ipynb
