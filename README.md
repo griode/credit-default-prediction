@@ -40,3 +40,14 @@ Un tel modèle peut aider une institution financière à :
 - Importance du data cleaning et de l'équilibrage des classes
 - Interprétabilité des modèles : indispensable en contexte bancaire
 - Puissance combinée d'un modèle robuste et d'un dashboard clair
+
+## 🚦 Lancer l'application Streamlit
+
+Pour lancer l'application Streamlit en local, exécute la commande suivante dans le terminal à la racine du projet :
+
+```bash
+streamlit run app.py
+```
+
+Assure-toi d'avoir installé toutes les dépendances nécessaires (voir `requirements.txt`).
+
